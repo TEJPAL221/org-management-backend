@@ -1,0 +1,74 @@
+# -------------------------------
+# Python / FastAPI Project Ignore
+# -------------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Cache
+*.egg-info/
+*.eggs/
+*.mypy_cache/
+*.pytest_cache/
+*.ruff_cache/
+.cache/
+
+# Environment Files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# (Allow example env file)
+!*.env.example
+
+# Logs
+*.log
+
+# -------------------------------
+# Editor & IDE Files
+# -------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------------
+# Docker / Build Artifacts
+# -------------------------------
+Dockerfile~
+docker-compose.yml~
+*.pid
+
+# Python virtual store (pip)
+pip-wheel-metadata/
+pip-selfcheck.json
+
+# -------------------------------
+# OS / System Files
+# -------------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------------
+# Project Specific Ignores
+# -------------------------------
+
+# Local app state (Python bytecode inside app/)
+app/__pycache__/
+
+# Do NOT ignore actual project files under app/
+# They contain your backend code:
+# app/api/
+# app/services/
+# app/models/
+# app/repositories/
