@@ -1,3 +1,17 @@
+## 🚀 Live Deployment
+
+**Backend API:**  
+https://org-management-backend.onrender.com/
+
+**Swagger API Documentation:**  
+https://org-management-backend.onrender.com/docs
+
+**GitHub Repository:**  
+https://github.com/TEJPAL221/org-management-backend
+
+
+
+
 # **Organization Management Backend (FastAPI · Multi-Tenant Architecture)**
 
 This backend provides APIs for managing organizations in a **multi-tenant system** using FastAPI, MongoDB, and JWT authentication.
@@ -218,4 +232,15 @@ All organization APIs require **Bearer Token** authorization.
 * **Pydantic** (Data validation)
 * **Uvicorn** (ASGI server)
 * **JWT Authentication**
-* **Docker (optional)**
+## 📸 Project Screenshots
+
+### Architecture Diagram
+![Architecture](assets/project-architecture.png)
+
+### Swagger API Overview
+![Swagger UI](assets/api.png)
+
+### Create Organization Example
+![Create Org](assets/deployment.png)
+
+
